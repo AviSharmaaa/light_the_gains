@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "TCS",
+    "qty": 10,
+    "buy_price": 3580
+  },
+  {
+    "symbol": "INFY",
+    "qty": 15,
+    "buy_price": 1450
+  },
+  {
+    "symbol": "RELIANCE",
+    "qty": 8,
+    "buy_price": 2800
+  },
+  {
+    "symbol": "HDFCBANK",
+    "qty": 12,
+    "buy_price": 1550
+  },
+  {
+    "symbol": "M&M",
+    "qty": 20,
+    "buy_price": 1680
+  },
+  {
+    "symbol": "ITC",
+    "qty": 25,
+    "buy_price": 440
+  }
+]
