@@ -1,5 +1,5 @@
 """
-💡 PortfolioGlow — Real-time Portfolio Mood Light
+💡 LightTheGains — Real-time Portfolio Mood Light
 ------------------------------------------------
 Tracks your stock portfolio performance and uses
 a Tuya smart bulb to visualize your portfolio mood:
@@ -207,7 +207,7 @@ def print_summary(df: pd.DataFrame) -> Optional[float]:
     return overall_1d_change
 
 def main() -> None:
-    """Run PortfolioGlow main loop."""
+    """Run LightTheGains main loop."""
     path = Path(PORTFOLIO_FILE)
     if not path.exists():
         raise SystemExit(f"Portfolio file not found: {path}")
@@ -224,7 +224,7 @@ def main() -> None:
             print(f"\n🔁 Refreshing in {REFRESH_INTERVAL} seconds... (Ctrl+C to exit)")
             time.sleep(REFRESH_INTERVAL)
     except KeyboardInterrupt:
-        print("\n👋 Exiting PortfolioGlow.")
+        print("\n👋 Exiting LightTheGains.")
         bulb.turn_off()
 
 
